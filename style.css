@@ -1,0 +1,26 @@
+.main {
+    background-image: url("./assets/images/bg-body3.png");
+    background-size: auto;
+}
+
+.header {
+    font-size: 0.75rem;
+}
+
+.header__info {
+    display: flex;
+}
+
+.header__info p {
+    margin-left: 0.5rem;
+    padding-left: 0.25rem;
+    border-left: 2px solid black;
+}
+
+.header__info p:first-child {
+    border-left: 0px;
+}
+
+.header__info p:hover {
+    color: gray;
+}
